@@ -8,57 +8,56 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheets" href="./css/styles.css"> 
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
+    <header class="header">
+        <a href="">
+            <img src="./images/Logo.svg" alt="Logo">
+        </a>
         <nav>
-             <a href="">
-                <img src="./images/Logo.svg" alt="Logo">
-            </a>
-        
-            <ul>
-                <li><a href="">About</a></li>
-                <li><a href="">Services and prices</a></li>
-                <li><a href="">Barbers</a></li>
-                <li><a href="">Contacts</a></li>
+            <ul class="nav-list list">
+                <li class="nav-item"><a href="" class="nav-link link">About</a></li>
+                <li class="nav-item"><a href="" class="nav-link link">Services and prices</a></li>
+                <li class="nav-item"><a href="" class="nav-link link">Barbers</a></li>
+                <li class="nav-item"><a href="" class="nav-link link">Contacts</a></li>
             </ul>
         </nav>
-        <a href="+380441111111">+38 044 111 11 11</a>
-        <button type="button">Online-booking</button>
+        <a href="+380441111111" class="header-tel"> +38 044 111 11 11</a>
+        <button type="button" class="header-btn">Online-booking</button>
     </header>
 
     <main>
-        <section>
-            <ul>
-                <li><a href="" target="_blank" rel="noopener noreferrer nofollow">Instagram</a></li>
-                <li><a href="" target="_blank" rel="noopener noreferrer nofollow">Youtube</a></li>
+        <section class="hero">
+            <ul class="hero-list list">
+                <li class="hero-list-item"><a href="" target="_blank" rel="noopener noreferrer nofollow" class="hero-link link">Instagram</a></li>
+                <li class="hero-list-item"><a href="" target="_blank" rel="noopener noreferrer nofollow" class="hero-link link">Youtube</a></li>
             </ul>
 
-            <p>A hair salon for men in Kyiv</p>
-            <h1>BarberShop</h1>
-            <p>
+            <p class="hero-text">A hair salon for men in Kyiv</p>
+            <h1 class="hero-title">BarberShop</h1>
+            <p class="hero-description">
             We are experts in trendy men’s haircuts.
             We work quickly, carefully and with style.
             </p>
         </section>
 
         <section>
-            <ul>
+            <ul class="img-list list">
                 <li><img src="./images/beardcut.jpg" alt="beardcut"></li>
                 <li><img src="./images/haircut.jpg" alt="haircut"></li>
             </ul>
-            <p>About</p>
-            <h2>Best Barbershop in your city</h2>
-            <p>
+            <p class="about-text">About</p>
+            <h2 class="about-title">Best Barbershop in your city</h2>
+            <p class="about-about">
                 If you want to add more confidence to your image, you should definitely visit us.
             </p>
-            <p>
+            <p class="about-description">
                 We are a team that never stops at what has been achieved and are thirsty for changes. And when you fall into the hands
                 of our master, you will never be the same again. We are a team that is always "on the same wave" with clients.
                 Therefore, we are always ready to improve everyone who comes to us!
             </p>
-            <button type="button">ONLINE-BOOKING</button>
+            <button type="button" class="about-btn">ONLINE-BOOKING</button>
         </section>
 
         <section>
@@ -163,6 +162,38 @@
                 <li><img src="./images/img-4.jpg" alt="barbers gallery" width="270" height="360"></li>
             </ul>
         </section>
+        
+        <section>
+            <h2>Online-booking</h2>
+        </section>
+
+        <section>
+            <h2>Contacts</h2>
+            <address>
+                <ul>
+                    <li>
+                        <a href="">st. Vasilkivska, 7A<br>
+                        Kyiv, 08132</a>
+                    </li>
+                    <li>
+                        <a href="tel:+380441111111">+38 044 111 11 11</a>
+                    </li>
+                    <li>
+                        <a href="mailto:barbershop@email.com">barbershop@email.com</a>
+                    </li>
+                </ul>
+            </address>
+            <p>Working hours</p>
+            <p>Every day from 9:00 to 22:00</p>
+        </section>
+
+        <footer>
+            <p>&#169;Copyright 2020</p>
+            <ul>
+                <li><a href="" target="_blank" rel="noopener noreferrer nofollow">Instagram</a></li>
+                <li><a href="" target="_blank" rel="noopener noreferrer nofollow">Youtube</a></li>
+            </ul>
+        </footer>
     </main>
 </body>
 </html>
